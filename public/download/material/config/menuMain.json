@@ -1,0 +1,77 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "habilidades",
+    "title": "1. Habilidades propias aplicadas en la atención humanizada",
+    "breadcrumb": ["humanizacion","tema-1"],
+    "path": "pages/tema_1.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "habilidades",
+        "title": "1.1 Trabajo en equipo",
+        "anchor": "tema1_1"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "habilidades",
+        "title": "1.2 Liderazgo",
+        "anchor": "tema1_2"
+      },  
+      {
+        "icon": "fa fa-file-text",
+        "slug": "habilidades",
+        "title": "1.3 Empatía",
+        "anchor": "tema1_3"
+      }      
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-question-circle",
+    "slug": "actividad_1",
+    "title": "Actividad didáctica",
+    "breadcrumb": ["Inicio","actividad didáctica"],
+    "path": "pages/actividad-1.html"    
+  },
+  { 
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "atencion",
+    "title": "2. Atención humanizada",
+    "breadcrumb": ["Inicio","tema-2"],
+    "path": "pages/tema_2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "atencion",
+        "title": "2.1 Sentido de vida",
+        "anchor": "tema2_1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "atencion",
+        "title": "2.2 Relación interpersonal (Personal de la salud - Persona y red de apoyo - Organización) en la Atención Humanizada",
+        "anchor": "tema2_2"
+      }
+    ]  
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-question-circle",
+    "slug": "actividad_2",
+    "title": "Actividad didáctica",
+    "breadcrumb": [
+      "Inicio",
+      "actividad didáctica"
+    ],
+    "path": "pages/actividad-2.html"
+  }   
+]
